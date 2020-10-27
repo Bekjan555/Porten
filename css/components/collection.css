@@ -1,0 +1,98 @@
+.season {
+    padding-top: 40px;
+}
+
+.season__title {
+    font-family: var(--playFDisplay-regular);
+}
+
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
+.title::after {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 1px;
+    background: var(--white);
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.season__subtitle {
+    font-size: 18px;
+    font-family: var(--playFdisplay-regular);
+    margin-bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.season__description {
+    font-size: 16px;
+    font-family: var(--playFdisplay-bold) ;
+}
+
+.season__img {
+    background: #191B1C;
+    padding: 20px 0 20px 0;
+    box-sizing: border-box;
+}
+
+.man-1 {
+    background: url(../../img/man-1.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 70px;
+}
+
+.man-1__link {
+    padding: 40px 0 0 0;
+}
+
+.catalog {
+    font-size: 18px;
+    font-family: var(--ptsans-regular);
+    text-transform: uppercase;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+}
+
+.man-2 {
+    background: url(../../img/man-2.png) no-repeat;
+    background-size: contain;
+    width: 50%;
+}
+
+.collection-2018 {
+    flex-direction: column;
+    padding-top: 50px;
+    height: 410px;
+    width: 50%;
+}
+
+.collection-2018__description {
+    font-size: 14px;
+    line-height: 21px;
+    width: 473px;
+    margin: auto;
+}
+
+.collection__link {
+    border: 1px white solid;
+    padding: 10px 0;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    width: 260px;
+    margin: auto;
+}
+

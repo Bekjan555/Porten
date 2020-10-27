@@ -1,0 +1,11 @@
+:root {
+    --gray: #969696;
+    --white: #ffffff;
+    --light-gray: #D0D0D0;
+    --ptsans-bold: "PTSans-Bold", sans-serif;
+    --ptsans-regular: "PTSans-Regular", sans-serif;
+    --post-bold: "PostNoBillsJaffna-Bold", sans-serif;
+    --playFDisplay-bold: "PlayfairDisplay-Bold", sans-serif;
+    --playFDisplay-regular: "PlayfairDisplay-Regular", sans-serif
+}
+

@@ -1,0 +1,9 @@
+.brands {
+    background: #0F0F0F;
+}
+
+.brands__content {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 280px;
+}
